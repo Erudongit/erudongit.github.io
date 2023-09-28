@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@300;500&display=swap');
+
+html {
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 300;
+    font-size: 16pt;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+}
+body {
+    display: flex;
+    background-color: rgb(51, 50, 49);
+    justify-content: center;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    min-height: 90vh;
+    align-items: center;
+    background-color: beige;
+    border: 0.3rem solid #ff6700;
+    border-radius: 10px;
+    padding-bottom: 2.5rem;
+}
+
+h1 {
+    font-family: 'Lato', 'sans-serif';
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ff6700;
+    padding: .6rem;
+    border: 4px solid;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.categoryContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #f0c2a3;
+    /* padding-bottom: 1rem; */
+    border-radius: 0 0 20px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition-property: max-height, padding-bottom;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.collapsable {
+    max-height: 1500px;
+    padding-bottom: 1rem;
+    border-bottom: .4rem solid #ee8b4a;
+}
+
+.categoryContainerHeader {
+    user-select: none;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ee8b4a;
+    margin: 2.5rem 0 -.4rem 0;
+    padding: .5rem 0rem;
+    border-bottom: 4px solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: text-decoration 1s;
+}
+
+.categoryContainerHeader:hover {
+    border-bottom: 4px solid #ff6700;
+    text-decoration: underline;
+}
+
+.categoryContainer h3 {
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.stepContainer {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.relicContainer {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    padding: 0.5em 0.25em;
+}
+
+.relicImage {
+    border: 3px solid transparent
+}
+
+.relicImage:hover {
+    border: 3px solid #ff6700;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.opaque {
+    opacity: 0.45;
+}
+.opaque:hover {
+    opacity: 0.7;
+}
+
+.relicContainer:last-child{
+    margin-right: 0;
+}
+
+@media (max-width: 850px) {
+    html {
+        font-size: 12pt;
+    }
+
+    .categoryContainerHeader:hover {
+        border-bottom: 4px solid transparent;
+        text-decoration: none;
+    }
+    
+    .relicImage:hover {
+        border: 3px solid transparent
+    }
+
+    .collapsable {
+        max-height: 1500px;
+        padding-bottom: 1rem;
+    }
+    
+}

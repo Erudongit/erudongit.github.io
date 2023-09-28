@@ -1,0 +1,933 @@
+{
+    "arr":{
+        "PLD":{
+            "base":{
+                "name":"Curtana"
+            },
+            "zenith":{},
+            "atma":{},
+            "animus":{},
+            "novus":{},
+            "nexus":{},
+            "zodiac":{},
+            "zeta":{}
+        }
+    },
+    "hw":{},
+    "stb":{},
+    "shb":[
+        {
+            "stepName": "Resistance",
+            "cost": 4,
+            "itemId": 3,
+            "itemName": "Thavnairian scalepowder",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Honorbound",
+                    "icon": "shb01"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Skullrender",
+                    "icon": "shb02"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Ingrimm",
+                    "icon": "shb03"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Akademos",
+                    "icon": "shb04"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Samsara",
+                    "icon": "shb05"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Dreizack",
+                    "icon": "shb06"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Honeshirazu",
+                    "icon": "shb07"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Brilliance",
+                    "icon": "shb08"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Espiritus",
+                    "icon": "shb09"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Soulscourge",
+                    "icon": "shb010"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Woeborn",
+                    "icon": "shb011"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Solstice",
+                    "icon": "shb012"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Lawman",
+                    "icon": "shb013"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Hoshikiri",
+                    "icon": "shb014"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Talekeeper",
+                    "icon": "shb015"
+                },
+                {
+                    "jobName": "GNB",
+                    "weaponName": "Crownsblade",
+                    "icon": "shb016"
+                },
+                {
+                    "jobName": "DNC",
+                    "weaponName": "Enchufla",
+                    "icon": "shb017"
+                }
+            ]
+        },
+        {
+            "stepName": "Augmented Resistance",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Augmented Honorbound",
+                    "icon": "shb11"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Augmented Skullrender",
+                    "icon": "shb12"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Augmented Ingrimm",
+                    "icon": "shb13"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Augmented Akademos",
+                    "icon": "shb14"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Augmented Samsara",
+                    "icon": "shb15"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Augmented Dreizack",
+                    "icon": "shb16"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Augmented Honeshirazu",
+                    "icon": "shb17"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Augmented Brilliance",
+                    "icon": "shb18"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Augmented Espiritus",
+                    "icon": "shb19"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Augmented Soulscourge",
+                    "icon": "shb110"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Augmented Woeborn",
+                    "icon": "shb111"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Augmented Solstice",
+                    "icon": "shb112"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Augmented Lawman",
+                    "icon": "shb113"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Augmented Hoshikiri",
+                    "icon": "shb114"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Augmented Talekeeper",
+                    "icon": "shb115"
+                },
+                {
+                    "jobName": "GNB",
+                    "weaponName": "Augmented Crownsblade",
+                    "icon": "shb116"
+                },
+                {
+                    "jobName": "DNC",
+                    "weaponName": "Augmented Enchufla",
+                    "icon": "shb117"
+                }
+            ]
+        },
+        {
+            "stepName": "Recollection",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Honorbound Recollection",
+                    "icon": "shb21"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Skullrender Recollection",
+                    "icon": "shb22"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Ingrimm Recollection",
+                    "icon": "shb23"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Akademos Recollection",
+                    "icon": "shb24"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Samsara Recollection",
+                    "icon": "shb25"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Dreizack Recollection",
+                    "icon": "shb26"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Honeshirazu Recollection",
+                    "icon": "shb27"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Brilliance Recollection",
+                    "icon": "shb28"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Espiritus Recollection",
+                    "icon": "shb29"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Soulscourge Recollection",
+                    "icon": "shb210"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Woeborn Recollection",
+                    "icon": "shb211"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Solstice Recollection",
+                    "icon": "shb212"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Lawman Recollection",
+                    "icon": "shb213"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Hoshikiri Recollection",
+                    "icon": "shb214"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Talekeeper Recollection",
+                    "icon": "shb215"
+                },
+                {
+                    "jobName": "GNB",
+                    "weaponName": "Crownsblade Recollection",
+                    "icon": "shb216"
+                },
+                {
+                    "jobName": "DNC",
+                    "weaponName": "Enchufla Recollection",
+                    "icon": "shb217"
+                }
+            ]
+        },
+        {
+            "stepName": "Law's Order",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Law's Order Bastard Sword",
+                    "icon": "shb31"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Law's Order Labrys",
+                    "icon": "shb32"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Law's Order Cane",
+                    "icon": "shb33"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Law's Order Codex",
+                    "icon": "shb34"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Law's Order Knuckles",
+                    "icon": "shb35"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Law's Order Spear",
+                    "icon": "shb36"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Law's Order Knives",
+                    "icon": "shb37"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Law's Order Composite Bow",
+                    "icon": "shb38"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Law's Order Index",
+                    "icon": "shb39"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Law's Order Rod",
+                    "icon": "shb310"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Law's Order Zweihander",
+                    "icon": "shb311"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Law's Order Astrometer",
+                    "icon": "shb312"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Law's Order Revolver",
+                    "icon": "shb313"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Law's Order Samurai Blade",
+                    "icon": "shb314"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Law's Order Rapier",
+                    "icon": "shb315"
+                },
+                {
+                    "jobName": "GNB",
+                    "weaponName": "Law's Order Manatrigger",
+                    "icon": "shb316"
+                },
+                {
+                    "jobName": "DNC",
+                    "weaponName": "Law's Order Chakrams",
+                    "icon": "shb317"
+                }
+            ]
+        },
+        {
+            "stepName": "Augmented Law's Order",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Augmented Law's Order Bastard Sword",
+                    "icon": "shb41"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Augmented Law's Order Labrys",
+                    "icon": "shb42"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Augmented Law's Order Cane",
+                    "icon": "shb43"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Augmented Law's Order Codex",
+                    "icon": "shb44"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Augmented Law's Order Knuckles",
+                    "icon": "shb45"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Augmented Law's Order Spear",
+                    "icon": "shb46"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Augmented Law's Order Knives",
+                    "icon": "shb47"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Augmented Law's Order Composite Bow",
+                    "icon": "shb48"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Augmented Law's Order Index",
+                    "icon": "shb49"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Augmented Law's Order Rod",
+                    "icon": "shb410"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Augmented Law's Order Zweihander",
+                    "icon": "shb411"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Augmented Law's Order Astrometer",
+                    "icon": "shb412"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Augmented Law's Order Revolver",
+                    "icon": "shb413"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Augmented Law's Order Samurai Blade",
+                    "icon": "shb414"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Augmented Law's Order Rapier",
+                    "icon": "shb415"
+                },
+                {
+                    "jobName": "GNB",
+                    "weaponName": "Augmented Law's Order Manatrigger",
+                    "icon": "shb416"
+                },
+                {
+                    "jobName": "DNC",
+                    "weaponName": "Augmented Law's Order Chakrams",
+                    "icon": "shb417"
+                }
+            ]
+        },
+        {
+            "stepName": "Blade's",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Blade's Honor",
+                    "icon": "shb51"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Blade's Valor",
+                    "icon": "shb52"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Blade's Mercy",
+                    "icon": "shb53"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Blade's Wisdom",
+                    "icon": "shb54"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Blade's Serenity",
+                    "icon": "shb55"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Blade's Glory",
+                    "icon": "shb56"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Blade's Subtlety",
+                    "icon": "shb57"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Blade's Muse",
+                    "icon": "shb58"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Blade's Acumen",
+                    "icon": "shb59"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Blade's Fury",
+                    "icon": "shb510"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Blade's Justice",
+                    "icon": "shb511"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Blade's Providence",
+                    "icon": "shb512"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Blade's Ingenuity",
+                    "icon": "shb513"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Blade's Fealty",
+                    "icon": "shb514"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Blade's Temperance",
+                    "icon": "shb515"
+                },
+                {
+                    "jobName": "GNB",
+                    "weaponName": "Blade's Resolve",
+                    "icon": "shb516"
+                },
+                {
+                    "jobName": "DNC",
+                    "weaponName": "Blade's Euphoria",
+                    "icon": "shb517"
+                }
+            ]
+        }
+    ],
+    "ew": [
+        {
+            "stepName": "Manderville",
+            "cost": 3,
+            "itemId": 0,
+            "itemName": "Manderium Meteorite",
+            "jobs": [
+                {
+                    "jobName" : "PLD",
+                    "weaponName" : "Manderville Sword",
+                    "icon" : "ew01"
+                },
+                {
+                    "jobName" : "WAR",
+                    "weaponName" : "Manderville Axe",
+                    "icon" : "ew02"
+                },
+                {
+                    "jobName" : "WHM",
+                    "weaponName" : "Manderville Cane",
+                    "icon" : "ew03"
+                },
+                {
+                    "jobName" : "SCH",
+                    "weaponName" : "Manderville Codex",
+                    "icon" : "ew04"
+                },
+                {
+                    "jobName" : "MNK",
+                    "weaponName" : "Manderville Knuckles",
+                    "icon" : "ew05"
+                },
+                {
+                    "jobName" : "DRG",
+                    "weaponName" : "Manderville Spear",
+                    "icon" : "ew06"
+                },
+                {
+                    "jobName" : "NIN",
+                    "weaponName" : "Manderville Knives",
+                    "icon" : "ew07"
+                },
+                {
+                    "jobName" : "BRD",
+                    "weaponName" : "Manderville Harp Bow",
+                    "icon" : "ew08"
+                },
+                {
+                    "jobName" : "SMN",
+                    "weaponName" : "Manderville Index",
+                    "icon" : "ew09"
+                },
+                {
+                    "jobName" : "BLM",
+                    "weaponName" : "Manderville Rod",
+                    "icon" : "ew010"
+                },
+                {
+                    "jobName" : "DRK",
+                    "weaponName" : "Manderville Zweihander",
+                    "icon" : "ew011"
+                },
+                {
+                    "jobName" : "AST",
+                    "weaponName" : "Manderville Torquetum",
+                    "icon" : "ew012"
+                },
+                {
+                    "jobName" : "MCH",
+                    "weaponName" : "Manderville Revolver",
+                    "icon" : "ew013"
+                },
+                {
+                    "jobName" : "SAM",
+                    "weaponName" : "Manderville Samurai Blade",
+                    "icon" : "ew014"
+                },
+                {
+                    "jobName" : "RDM",
+                    "weaponName" : "Manderville Rapier",
+                    "icon" : "ew015"
+                },
+                {
+                    "jobName" : "GNB",
+                    "weaponName" : "Manderville Gunblade",
+                    "icon" : "ew016"
+                },
+                {
+                    "jobName" : "DNC",
+                    "weaponName" : "Manderville Chakrams",
+                    "icon" : "ew017"
+                },
+                {
+                    "jobName" : "RPR",
+                    "weaponName" : "Manderville Scythe",
+                    "icon" : "ew018"
+                },
+                {
+                    "jobName" : "SGE",
+                    "weaponName" : "Manderville Milpreves",
+                    "icon" : "ew019"
+                }
+            ]
+        },
+        {
+            "stepName": "Amazing Manderville",
+            "cost": 3,
+            "itemId": 1,
+            "itemName": "Manderium Meteorite",
+            "jobs": [
+                {
+                    "jobName" : "PLD",
+                    "weaponName" : "Amazing Manderville Sword",
+                    "icon" : "ew11"
+                },
+                {
+                    "jobName" : "WAR",
+                    "weaponName" : "Amazing Manderville Axe",
+                    "icon" : "ew12"
+                },
+                {
+                    "jobName" : "WHM",
+                    "weaponName" : "Amazing Manderville Cane",
+                    "icon" : "ew13"
+                },
+                {
+                    "jobName" : "SCH",
+                    "weaponName" : "Amazing Manderville Codex",
+                    "icon" : "ew14"
+                },
+                {
+                    "jobName" : "MNK",
+                    "weaponName" : "Amazing Manderville Knuckles",
+                    "icon" : "ew15"
+                },
+                {
+                    "jobName" : "DRG",
+                    "weaponName" : "Amazing Manderville Spear",
+                    "icon" : "ew16"
+                },
+                {
+                    "jobName" : "NIN",
+                    "weaponName" : "Amazing Manderville Knives",
+                    "icon" : "ew17"
+                },
+                {
+                    "jobName" : "BRD",
+                    "weaponName" : "Amazing Manderville Harp Bow",
+                    "icon" : "ew18"
+                },
+                {
+                    "jobName" : "SMN",
+                    "weaponName" : "Amazing Manderville Index",
+                    "icon" : "ew19"
+                },
+                {
+                    "jobName" : "BLM", 
+                    "weaponName" : "Amazing Manderville Rod",
+                    "icon" : "ew110"
+                },
+                {
+                    "jobName" : "DRK",
+                    "weaponName" : "Amazing Manderville Zweihander",
+                    "icon" : "ew111"
+                },
+                {
+                    "jobName" : "AST",
+                    "weaponName" : "Amazing Manderville Torquetum",
+                    "icon" : "ew112"
+                },
+                {
+                    "jobName" : "MCH",
+                    "weaponName" : "Amazing Manderville Revolver",
+                    "icon" : "ew113"
+                },
+                {
+                    "jobName" : "SAM",
+                    "weaponName" : "Amazing Manderville Samurai Blade",
+                    "icon" : "ew114"
+                },
+                {
+                    "jobName" : "RDM",
+                    "weaponName" : "Amazing Manderville Rapier",
+                    "icon" : "ew115"
+                },
+                {
+                    "jobName" : "GNB",
+                    "weaponName" : "Amazing Manderville Gunblade",
+                    "icon" : "ew116"
+                },
+                {
+                    "jobName" : "DNC",
+                    "weaponName" : "Amazing Manderville Chakrams",
+                    "icon" : "ew117"
+                },
+                {
+                    "jobName" : "RPR",
+                    "weaponName" : "Amazing Manderville Scythe",
+                    "icon" : "ew118"
+                },
+                {
+                    "jobName" : "SGE",
+                    "weaponName" : "Amazing Manderville Milpreves",
+                    "icon" : "ew119"
+                }
+            ]
+        },
+        {
+            "stepName": "Majestic Manderville",
+            "cost": 3,
+            "itemId": 2,
+            "itemName": "Manderium Meteorite",
+            "jobs": [
+                {
+                    "jobName" : "PLD",
+                    "weaponName" : "Majestic Manderville Sword",
+                    "icon" : "ew21"
+                },
+                {
+                    "jobName" : "WAR",
+                    "weaponName" : "Majestic Manderville Bardiche",
+                    "icon" : "ew22"
+                },
+                {
+                    "jobName" : "WHM",
+                    "weaponName" : "Majestic Manderville Wand",
+                    "icon" : "ew23"
+                },
+                {
+                    "jobName" : "SCH",
+                    "weaponName" : "Majestic Manderville Codex",
+                    "icon" : "ew24"
+                },
+                {
+                    "jobName" : "MNK",
+                    "weaponName" : "Majestic Manderville Fists",
+                    "icon" : "ew25"
+                },
+                {
+                    "jobName" : "DRG",
+                    "weaponName" : "Majestic Manderville Spear",
+                    "icon" : "ew26"
+                },
+                {
+                    "jobName" : "NIN",
+                    "weaponName" : "Majestic Manderville Knives",
+                    "icon" : "ew27"
+                },
+                {
+                    "jobName" : "BRD",
+                    "weaponName" : "Majestic Manderville Harp Bow",
+                    "icon" : "ew28"
+                },
+                {
+                    "jobName" : "SMN",
+                    "weaponName" : "Majestic Manderville Index",
+                    "icon" : "ew29"
+                },
+                {
+                    "jobName" : "BLM",
+                    "weaponName" : "Majestic Manderville Staff",
+                    "icon" : "ew210"
+                },
+                {
+                    "jobName" : "DRK",
+                    "weaponName" : "Majestic Manderville Greatsword",
+                    "icon" : "ew211"
+                },
+                {
+                    "jobName" : "AST",
+                    "weaponName" : "Majestic Manderville Orrery",
+                    "icon" : "ew212"
+                },
+                {
+                    "jobName" : "MCH",
+                    "weaponName" : "Majestic Manderville Pistol",
+                    "icon" : "ew213"
+                },
+                {
+                    "jobName" : "SAM",
+                    "weaponName" : "Majestic Manderville Samurai Blade",
+                    "icon" : "ew214"
+                },
+                {
+                    "jobName" : "RDM",
+                    "weaponName" : "Majestic Manderville Degen",
+                    "icon" : "ew215"
+                },
+                {
+                    "jobName" : "GNB",
+                    "weaponName" : "Majestic Manderville Bayonet",
+                    "icon" : "ew216"
+                },
+                {
+                    "jobName" : "DNC",
+                    "weaponName" : "Majestic Manderville Chakrams",
+                    "icon" : "ew217"
+                },
+                {
+                    "jobName" : "RPR",
+                    "weaponName" : "Majestic Manderville War Scythe",
+                    "icon" : "ew218"
+                },
+                {
+                    "jobName" : "SGE",
+                    "weaponName" : "Majestic Manderville Wings",
+                    "icon" : "ew219"
+                }
+            ]
+        }
+    ],
+    "items":[
+        {
+            "name":"Manderium Meteorite",
+            "cost": 500,
+            "currency": "causality",
+            "icon" : "manderium_meteorite",
+            "contentId": ""
+        },
+        {
+            "name":"Complementary Chondrite",
+            "cost": 500,
+            "currency": "causality",
+            "icon" : "complementary_chondrite",
+            "contentId": ""
+        },
+        {
+            "name":"Amplifying Achondrite",
+            "cost": 500,
+            "currency": "causality",
+            "icon" : "amplifying_achondrite",
+            "contentId": ""
+        },
+        {
+            "name": "Thavnairian scalepowder",
+            "cost": 250,
+            "currency": "poetics",
+            "icon": "Thavnairian_scalepowder",
+            "contentId": ""
+        }
+    ],
+    "currency":[
+        {
+            "name" : "Allagan Tomestone of Poetics",
+            "icon" : "poetics"
+        },
+        {
+            "name" : "Allagan Tomestone of Causality",
+            "icon" : "causality"
+        }
+    ],
+    "content":[
+        "roulette",
+        "FATEs"
+    ]
+}
