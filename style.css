@@ -57,7 +57,7 @@ h1 {
 }
 
 .collapsable {
-    max-height: 1500px;
+    max-height: 5000px;
     padding-bottom: 1rem;
     border-bottom: .4rem solid #ee8b4a;
 }
