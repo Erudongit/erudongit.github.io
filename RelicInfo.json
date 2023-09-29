@@ -1,20 +1,1556 @@
 {
-    "arr":{
-        "PLD":{
-            "base":{
-                "name":"Curtana"
-            },
-            "zenith":{},
-            "atma":{},
-            "animus":{},
-            "novus":{},
-            "nexus":{},
-            "zodiac":{},
-            "zeta":{}
+    "arr":[
+        {   
+            "stepName": "Base Zodiac",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Curtana",
+                    "icon": "arr01"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Bravura",
+                    "icon": "arr02"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Thyrus",
+                    "icon": "arr03"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Omnilex",
+                    "icon": "arr04"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sphairai",
+                    "icon": "arr05"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Gae Bolg",
+                    "icon": "arr06"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Yoshimitsu",
+                    "icon": "arr07"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Artemis Bow",
+                    "icon": "arr08"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "The Veil of Wiyu",
+                    "icon": "arr09"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Stardust Rod",
+                    "icon": "arr010"
+                }
+            ]
+        },
+        {   
+            "stepName": "Zenith",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Curtana Zenith",
+                    "icon": "arr11"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Bravura Zenith",
+                    "icon": "arr12"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Thyrus Zenith",
+                    "icon": "arr13"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Omnilex Zenith",
+                    "icon": "arr14"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sphairai Zenith",
+                    "icon": "arr15"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Gae Bolg Zenith",
+                    "icon": "arr16"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Yoshimitsu Zenith",
+                    "icon": "arr17"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Artemis Bow Zenith",
+                    "icon": "arr18"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "The Veil of Wiyu Zenith",
+                    "icon": "arr19"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Stardust Rod Zenith",
+                    "icon": "arr110"
+                }
+            ]
+        },
+        {   
+            "stepName": "Atma",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Curtana Atma",
+                    "icon": "arr21"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Bravura Atma",
+                    "icon": "arr22"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Thyrus Atma",
+                    "icon": "arr23"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Omnilex Atma",
+                    "icon": "arr24"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sphairai Atma",
+                    "icon": "arr25"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Gae Bolg Atma",
+                    "icon": "arr26"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Yoshimitsu Atma",
+                    "icon": "arr27"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Artemis Bow Atma",
+                    "icon": "arr28"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "The Veil of Wiyu Atma",
+                    "icon": "arr29"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Stardust Rod Atma",
+                    "icon": "arr210"
+                }
+            ]
+        },
+        {   
+            "stepName": "Animus",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Curtana Animus",
+                    "icon": "arr31"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Bravura Animus",
+                    "icon": "arr32"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Thyrus Animus",
+                    "icon": "arr33"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Omnilex Animus",
+                    "icon": "arr34"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sphairai Animus",
+                    "icon": "arr35"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Gae Bolg Animus",
+                    "icon": "arr36"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Yoshimitsu Animus",
+                    "icon": "arr37"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Artemis Bow Animus",
+                    "icon": "arr38"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "The Veil of Wiyu Animus",
+                    "icon": "arr39"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Stardust Rod Animus",
+                    "icon": "arr310"
+                }
+            ]
+        },
+        {   
+            "stepName": "Novus",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Curtana Novus",
+                    "icon": "arr41"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Bravura Novus",
+                    "icon": "arr42"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Thyrus Novus",
+                    "icon": "arr43"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Omnilex Novus",
+                    "icon": "arr44"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sphairai Novus",
+                    "icon": "arr45"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Gae Bolg Novus",
+                    "icon": "arr46"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Yoshimitsu Novus",
+                    "icon": "arr47"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Artemis Bow Novus",
+                    "icon": "arr48"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "The Veil of Wiyu Novus",
+                    "icon": "arr49"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Stardust Rod Novus",
+                    "icon": "arr410"
+                }
+            ]
+        },
+        {   
+            "stepName": "Nexus",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Curtana Nexus",
+                    "icon": "arr51"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Bravura Nexus",
+                    "icon": "arr52"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Thyrus Nexus",
+                    "icon": "arr53"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Omnilex Nexus",
+                    "icon": "arr54"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sphairai Nexus",
+                    "icon": "arr55"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Gae Bolg Nexus",
+                    "icon": "arr56"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Yoshimitsu Nexus",
+                    "icon": "arr57"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Artemis Bow Nexus",
+                    "icon": "arr58"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "The Veil of Wiyu Nexus",
+                    "icon": "arr59"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Stardust Rod Nexus",
+                    "icon": "arr510"
+                }
+            ]
+        },
+        {   
+            "stepName": "Zodiac",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Excalibur",
+                    "icon": "arr61"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Ragnarok",
+                    "icon": "arr62"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Nirvana",
+                    "icon": "arr63"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Last Resort",
+                    "icon": "arr64"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Kaiser Knuckles",
+                    "icon": "arr65"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Longinus",
+                    "icon": "arr66"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Sasuke's Blades",
+                    "icon": "arr67"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Yoichi Bow",
+                    "icon": "arr68"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Apocalypse",
+                    "icon": "arr69"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Lilith Rod",
+                    "icon": "arr610"
+                }
+            ]
+        },
+        {   
+            "stepName": "Zeta",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Excalibur Zeta",
+                    "icon": "arr71"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Ragnarok Zeta",
+                    "icon": "arr72"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Nirvana Zeta",
+                    "icon": "arr73"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Last Resort Zeta",
+                    "icon": "arr74"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Kaiser Knuckles Zeta",
+                    "icon": "arr75"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Longinus Zeta",
+                    "icon": "arr76"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Sasuke's Blades Zeta",
+                    "icon": "arr77"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Yoichi Bow Zeta",
+                    "icon": "arr78"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Apocalypse Zeta",
+                    "icon": "arr79"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Lilith Rod Zeta",
+                    "icon": "arr710"
+                }
+            ]
         }
-    },
-    "hw":{},
-    "stb":{},
+    ],
+    "hw":[
+        {   
+            "stepName": "Animated",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Animated Hauteclaire",
+                    "icon": "hw01"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Animated Parashu",
+                    "icon": "hw02"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Animated Seraph Cane",
+                    "icon": "hw03"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Animated Elements",
+                    "icon": "hw04"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Animated Rising Suns",
+                    "icon": "hw05"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Animated Brionac",
+                    "icon": "hw06"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Animated Yukimitsu",
+                    "icon": "hw07"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Animated Berimbau",
+                    "icon": "hw08"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Animated Almandal",
+                    "icon": "hw09"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Animated Lunaris Rod",
+                    "icon": "hw010"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Animated Deathbringer",
+                    "icon": "hw011"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Animated Atlas",
+                    "icon": "hw012"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Animated Ferdinand",
+                    "icon": "hw013"
+                }
+            ]
+        },
+        {   
+            "stepName": "Awoken",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Hauteclaire Awoken",
+                    "icon": "hw11"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Parashu Awoken",
+                    "icon": "hw12"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Seraph Cane Awoken",
+                    "icon": "hw13"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Elements Awoken",
+                    "icon": "hw14"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Rising Suns Awoken",
+                    "icon": "hw15"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Brionac Awoken",
+                    "icon": "hw16"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Yukimitsu Awoken",
+                    "icon": "hw17"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Berimbau Awoken",
+                    "icon": "hw18"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Almandal Awoken",
+                    "icon": "hw19"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Lunaris Rod Awoken",
+                    "icon": "hw110"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Deathbringer Awoken",
+                    "icon": "hw111"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Atlas Awoken",
+                    "icon": "hw112"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Ferdinand Awoken",
+                    "icon": "hw113"
+                }
+            ]
+        },
+        {   
+            "stepName": "Anima",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Almace",
+                    "icon": "hw21"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Ukonvasara",
+                    "icon": "hw22"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Majestas",
+                    "icon": "hw23"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Tetrabiblos",
+                    "icon": "hw24"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Verethragna",
+                    "icon": "hw25"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Rhongomiant",
+                    "icon": "hw26"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Kannagi",
+                    "icon": "hw27"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Gandiva",
+                    "icon": "hw28"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Draconomicon",
+                    "icon": "hw29"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Hvergelmir",
+                    "icon": "hw210"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Nothung",
+                    "icon": "hw211"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Deneb",
+                    "icon": "hw212"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Armageddon",
+                    "icon": "hw213"
+                }
+            ]
+        },
+        {   
+            "stepName": "Hyperconductive",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Hyperconductive Almace",
+                    "icon": "hw31"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Hyperconductive Ukonvasara",
+                    "icon": "hw32"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Hyperconductive Majestas",
+                    "icon": "hw33"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Hyperconductive Tetrabiblos",
+                    "icon": "hw34"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Hyperconductive Verethragna",
+                    "icon": "hw35"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Hyperconductive Rhongomiant",
+                    "icon": "hw36"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Hyperconductive Kannagi",
+                    "icon": "hw37"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Hyperconductive Gandiva",
+                    "icon": "hw38"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Hyperconductive Draconomicon",
+                    "icon": "hw39"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Hyperconductive Hvergelmir",
+                    "icon": "hw310"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Hyperconductive Nothung",
+                    "icon": "hw311"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Hyperconductive Deneb",
+                    "icon": "hw312"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Hyperconductive Armageddon",
+                    "icon": "hw313"
+                }
+            ]
+        },
+        {   
+            "stepName": "Reconditioned",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Sword of the Twin Thegns",
+                    "icon": "hw41"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Axe of the Blood Emperor",
+                    "icon": "hw42"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Cane of the White Tsar",
+                    "icon": "hw43"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Word of the Magnate",
+                    "icon": "hw44"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sultan's Fists",
+                    "icon": "hw45"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Trident of the Overlord",
+                    "icon": "hw46"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Spurs of the Thorn Prince",
+                    "icon": "hw47"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Bow of the Autarch",
+                    "icon": "hw48"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Book of the Mad Queen",
+                    "icon": "hw49"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Rod of the Black Khan",
+                    "icon": "hw410"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Guillotine of the Tyrant",
+                    "icon": "hw411"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Sphere of the Last Heir",
+                    "icon": "hw412"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Flame of the Dynast",
+                    "icon": "hw413"
+                }
+            ]
+        },
+        {   
+            "stepName": "Sharpened",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Sharpened Sword of the Twin Thegns",
+                    "icon": "hw51"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Sharpened Axe of the Blood Emperor",
+                    "icon": "hw52"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Sharpened Cane of the White Tsar",
+                    "icon": "hw53"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Sharpened Word of the Magnate",
+                    "icon": "hw54"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sharpened Sultan's Fists",
+                    "icon": "hw55"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Sharpened Trident of the Overlord",
+                    "icon": "hw56"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Sharpened Spurs of the Thorn Prince",
+                    "icon": "hw57"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Sharpened Bow of the Autarch",
+                    "icon": "hw58"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Sharpened Book of the Mad Queen",
+                    "icon": "hw59"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Sharpened Rod of the Black Khan",
+                    "icon": "hw510"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Sharpened Guillotine of the Tyrant",
+                    "icon": "hw511"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Sharpened Sphere of the Last Heir",
+                    "icon": "hw512"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Sharpened Flame of the Dynast",
+                    "icon": "hw513"
+                }
+            ]
+        },
+        {   
+            "stepName": "Complete Anima",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Aettir",
+                    "icon": "hw61"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Minos",
+                    "icon": "hw62"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Sindri",
+                    "icon": "hw63"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Anabasis",
+                    "icon": "hw64"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Nyepels",
+                    "icon": "hw65"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Areadbhar",
+                    "icon": "hw66"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Sandungs",
+                    "icon": "hw67"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Terpander",
+                    "icon": "hw68"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Mimesis",
+                    "icon": "hw69"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Kaladanda",
+                    "icon": "hw610"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Areadbhar",
+                    "icon": "hw611"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Canopus",
+                    "icon": "hw612"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Deathlocke",
+                    "icon": "hw613"
+                }
+            ]
+        },
+        {   
+            "stepName": "Lux Anima",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Aettir Lux",
+                    "icon": "hw71"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Minos Lux",
+                    "icon": "hw72"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Sindri Lux",
+                    "icon": "hw73"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Anabasis Lux",
+                    "icon": "hw74"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Nyepels Lux",
+                    "icon": "hw75"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Areadbhar Lux",
+                    "icon": "hw76"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Sandungs Lux",
+                    "icon": "hw77"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Terpander Lux",
+                    "icon": "hw78"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Mimesis Lux",
+                    "icon": "hw79"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Kaladanda Lux",
+                    "icon": "hw710"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Cronus Lux",
+                    "icon": "hw711"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Canopus Lux",
+                    "icon": "hw712"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Deathlocke Lux",
+                    "icon": "hw713"
+                }
+            ]
+        }
+    ],
+    "stb":[
+        {
+            "stepName": "Antiquated Artifact",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Antiquated Galatyn",
+                    "icon": "stb01"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Antiquated Farsha",
+                    "icon": "stb02"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Antiquated Aymur",
+                    "icon": "stb03"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Antiquated Organum",
+                    "icon": "stb04"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Antiquated Sudarshana Chakra",
+                    "icon": "stb05"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Antiquated Ryunohige",
+                    "icon": "stb06"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Antiquated Nagi",
+                    "icon": "stb07"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Antiquated Failnaught",
+                    "icon": "stb08"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Antiquated Lemegeton",
+                    "icon": "stb09"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Antiquated Vanargand",
+                    "icon": "stb010"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Antiquated Caladbolg",
+                    "icon": "stb011"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Antiquated Pleiades",
+                    "icon": "stb012"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Antiquated Outsider",
+                    "icon": "stb013"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Antiquated Kiku-ichimonji",
+                    "icon": "stb014"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Antiquated Murgleis",
+                    "icon": "stb015"
+                }
+            ]
+        },
+        {
+            "stepName": "Anemos",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Galatyn Anemos",
+                    "icon": "stb11"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Farsha Anemos",
+                    "icon": "stb12"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Aymur Anemos",
+                    "icon": "stb13"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Organum Anemos",
+                    "icon": "stb14"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Sudarshana Chakra Anemos",
+                    "icon": "stb15"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Ryunohige Anemos",
+                    "icon": "stb16"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Nagi Anemos",
+                    "icon": "stb17"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Failnaught Anemos",
+                    "icon": "stb18"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Lemegeton Anemos",
+                    "icon": "stb19"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Vanargand Anemos",
+                    "icon": "stb110"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Caladbolg Anemos",
+                    "icon": "stb111"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Pleiades Anemos",
+                    "icon": "stb112"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Outsider Anemos",
+                    "icon": "stb113"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Kiku-ichimonji Anemos",
+                    "icon": "stb114"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Murgleis Anemos",
+                    "icon": "stb115"
+                }
+            ]
+        },
+        {
+            "stepName": "Elemental - Pagos",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Elemental Sword",
+                    "icon": "stb21"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Elemental Battleaxe",
+                    "icon": "stb22"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Elemental Cane",
+                    "icon": "stb23"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Elemental Codex",
+                    "icon": "stb24"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Elemental Knuckles",
+                    "icon": "stb25"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Elemental Lance",
+                    "icon": "stb26"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Elemental Knives",
+                    "icon": "stb27"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Elemental Harp Bow",
+                    "icon": "stb28"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Elemental Grimoire",
+                    "icon": "stb29"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Elemental Rod",
+                    "icon": "stb210"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Elemental Guillotine",
+                    "icon": "stb211"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Elemental Astrometer",
+                    "icon": "stb212"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Elemental Handgonne",
+                    "icon": "stb213"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Elemental Blade",
+                    "icon": "stb214"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Elemental Tuck",
+                    "icon": "stb215"
+                }
+            ]
+        },
+        {
+            "stepName": "Pyros",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Pyros Sword",
+                    "icon": "stb31"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Pyros Battleaxe",
+                    "icon": "stb32"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Pyros Cane",
+                    "icon": "stb33"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Pyros Codex",
+                    "icon": "stb34"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Pyros Knuckles",
+                    "icon": "stb35"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Pyros Lance",
+                    "icon": "stb36"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Pyros Knives",
+                    "icon": "stb37"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Pyros Harp Bow",
+                    "icon": "stb38"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Pyros Grimoire",
+                    "icon": "stb39"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Pyros Rod",
+                    "icon": "stb310"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Pyros Guillotine",
+                    "icon": "stb311"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Pyros Astrometer",
+                    "icon": "stb312"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Pyros Handgonne",
+                    "icon": "stb313"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Pyros Blade",
+                    "icon": "stb314"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Pyros Tuck",
+                    "icon": "stb315"
+                }
+            ]
+        },
+        {
+            "stepName": "Eureka - Hydatos",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Antea Eureka",
+                    "icon": "stb41"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Shamash Eureka",
+                    "icon": "stb42"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Rose Couverte Eureka",
+                    "icon": "stb43"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Jebat Eureka",
+                    "icon": "stb44"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Dumuzis Eureka",
+                    "icon": "stb45"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Daboya Eureka",
+                    "icon": "stb46"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Kasasagi Eureka",
+                    "icon": "stb47"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Circinae Eureka",
+                    "icon": "stb48"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Tuah Eureka",
+                    "icon": "stb49"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Paikea Eureka",
+                    "icon": "stb410"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Xiphias Eureka",
+                    "icon": "stb411"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Albireo Eureka",
+                    "icon": "stb412"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Mollfrith Eureka",
+                    "icon": "stb413"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Torigashira Eureka",
+                    "icon": "stb414"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Brunello Eureka",
+                    "icon": "stb415"
+                }
+            ]
+        },
+        {
+            "stepName": "Physeos",
+            "cost": "",
+            "itemId": "",
+            "itemName": "",
+            "jobs": [
+                {
+                    "jobName": "PLD",
+                    "weaponName": "Antea Physeos",
+                    "icon": "stb51"
+                },
+                {
+                    "jobName": "WAR",
+                    "weaponName": "Shamash Physeos",
+                    "icon": "stb52"
+                },
+                {
+                    "jobName": "WHM",
+                    "weaponName": "Rose Couverte Physeos",
+                    "icon": "stb53"
+                },
+                {
+                    "jobName": "SCH",
+                    "weaponName": "Jebat Physeos",
+                    "icon": "stb54"
+                },
+                {
+                    "jobName": "MNK",
+                    "weaponName": "Dumuzis Physeos",
+                    "icon": "stb55"
+                },
+                {
+                    "jobName": "DRG",
+                    "weaponName": "Daboya Physeos",
+                    "icon": "stb56"
+                },
+                {
+                    "jobName": "NIN",
+                    "weaponName": "Kasasagi Physeos",
+                    "icon": "stb57"
+                },
+                {
+                    "jobName": "BRD",
+                    "weaponName": "Circinae Physeos",
+                    "icon": "stb58"
+                },
+                {
+                    "jobName": "SMN",
+                    "weaponName": "Tuah Physeos",
+                    "icon": "stb59"
+                },
+                {
+                    "jobName": "BLM",
+                    "weaponName": "Paikea Physeos",
+                    "icon": "stb510"
+                },
+                {
+                    "jobName": "DRK",
+                    "weaponName": "Xiphias Physeos",
+                    "icon": "stb511"
+                },
+                {
+                    "jobName": "AST",
+                    "weaponName": "Albireo Physeos",
+                    "icon": "stb512"
+                },
+                {
+                    "jobName": "MCH",
+                    "weaponName": "Mollfrith Physeos",
+                    "icon": "stb513"
+                },
+                {
+                    "jobName": "SAM",
+                    "weaponName": "Torigashira Physeos",
+                    "icon": "stb514"
+                },
+                {
+                    "jobName": "RDM",
+                    "weaponName": "Brunello Physeos",
+                    "icon": "stb515"
+                }
+            ]
+        }
+    ],
     "shb":[
         {
             "stepName": "Resistance",
