@@ -2,67 +2,85 @@
     "arr":[
         {   
             "stepName": "Base Zodiac",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [1],
+            "itemId": [15],
             "jobs": [
                 {
                     "jobName": "PLD",
                     "weaponName": "Curtana",
-                    "icon": "arr01"
+                    "icon": "arr01",
+                    "specificItems" : [0, 10],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "WAR",
                     "weaponName": "Bravura",
-                    "icon": "arr02"
+                    "icon": "arr02",
+                    "specificItems" : [1, 10],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "WHM",
                     "weaponName": "Thyrus",
-                    "icon": "arr03"
+                    "icon": "arr03",
+                    "specificItems" : [2, 11],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "SCH",
                     "weaponName": "Omnilex",
-                    "icon": "arr04"
+                    "icon": "arr04",
+                    "specificItems" : [3, 11],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "MNK",
                     "weaponName": "Sphairai",
-                    "icon": "arr05"
+                    "icon": "arr05",
+                    "specificItems" : [4, 12],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "DRG",
                     "weaponName": "Gae Bolg",
-                    "icon": "arr06"
+                    "icon": "arr06",
+                    "specificItems" : [5, 12],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "NIN",
                     "weaponName": "Yoshimitsu",
-                    "icon": "arr07"
+                    "icon": "arr07",
+                    "specificItems" : [6, 13],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "BRD",
                     "weaponName": "Artemis Bow",
-                    "icon": "arr08"
+                    "icon": "arr08",
+                    "specificItems" : [7, 13],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "SMN",
                     "weaponName": "The Veil of Wiyu",
-                    "icon": "arr09"
+                    "icon": "arr09",
+                    "specificItems" : [8, 14],
+                    "specificItemsCost" : [1, 2]
                 },
                 {
                     "jobName": "BLM",
                     "weaponName": "Stardust Rod",
-                    "icon": "arr010"
+                    "icon": "arr010",
+                    "specificItems" : [9, 14],
+                    "specificItemsCost" : [1, 2]
                 }
             ]
         },
         {   
             "stepName": "Zenith",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [3],
+            "itemId":[16],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -118,9 +136,8 @@
         },
         {   
             "stepName": "Atma",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [1,1,1,1,1,1,1,1,1,1,1,1],
+            "itemId": [17,18,19,20,21,22,23,24,25,26,27,28],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -176,9 +193,8 @@
         },
         {   
             "stepName": "Animus",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [9],
+            "itemId": [29],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -234,9 +250,8 @@
         },
         {   
             "stepName": "Novus",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [3,75],
+            "itemId": [30,31],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -292,9 +307,8 @@
         },
         {   
             "stepName": "Nexus",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": null,
+            "itemId": null,
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -350,9 +364,8 @@
         },
         {   
             "stepName": "Zodiac",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [4,4,1,1,1,1,1,1,1,1,1,1,1,1],
+            "itemId": [32,33,34,35,36,37,38,39,40,41,42,43,44,45],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -408,9 +421,8 @@
         },
         {   
             "stepName": "Zeta",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": null,
+            "itemId": null,
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -468,9 +480,8 @@
     "hw":[
         {   
             "stepName": "Animated",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [1,1,1,1,1,1],
+            "itemId": [46,47,48,49,50,51],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -541,9 +552,8 @@
         },
         {   
             "stepName": "Awoken",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": null,
+            "itemId": null,
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -614,9 +624,8 @@
         },
         {   
             "stepName": "Anima",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [10,10,10,10,4,4,4,4],
+            "itemId": [52,53,54,55,56,57,58,59],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -687,9 +696,8 @@
         },
         {   
             "stepName": "Hyperconductive",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [5],
+            "itemId": [60],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -760,9 +768,8 @@
         },
         {   
             "stepName": "Reconditioned",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [60,60,150,150],
+            "itemId": [61,62,16,30],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -833,9 +840,8 @@
         },
         {   
             "stepName": "Sharpened",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [50],
+            "itemId": [63],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -906,9 +912,8 @@
         },
         {   
             "stepName": "Complete Anima",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [15],
+            "itemId": [64],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -979,9 +984,8 @@
         },
         {   
             "stepName": "Lux Anima",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [1],
+            "itemId": [65],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1054,9 +1058,8 @@
     "stb":[
         {
             "stepName": "Antiquated Artifact",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": null,
+            "itemId": null,
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1137,9 +1140,8 @@
         },
         {
             "stepName": "Anemos",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [1300, 3],
+            "itemId": [66,67],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1220,9 +1222,8 @@
         },
         {
             "stepName": "Elemental - Pagos",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [31,500,5],
+            "itemId": [68,69,70],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1303,9 +1304,8 @@
         },
         {
             "stepName": "Pyros",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [650,5],
+            "itemId":[71,72],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1386,9 +1386,8 @@
         },
         {
             "stepName": "Eureka - Hydatos",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [350,5],
+            "itemId": [73,74],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1469,9 +1468,8 @@
         },
         {
             "stepName": "Physeos",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [100],
+            "itemId": [75],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1554,9 +1552,8 @@
     "shb":[
         {
             "stepName": "Resistance",
-            "cost": 4,
-            "itemId": 3,
-            "itemName": "Thavnairian scalepowder",
+            "cost": [4],
+            "itemId": [76],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1647,9 +1644,8 @@
         },
         {
             "stepName": "Augmented Resistance",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [20,20,20],
+            "itemId": [77,78,79],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1740,9 +1736,8 @@
         },
         {
             "stepName": "Recollection",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [6],
+            "itemId": [80],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1833,9 +1828,8 @@
         },
         {
             "stepName": "Law's Order",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [15],
+            "itemId": [81],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -1926,9 +1920,8 @@
         },
         {
             "stepName": "Augmented Law's Order",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [15],
+            "itemId": [82],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -2019,9 +2012,8 @@
         },
         {
             "stepName": "Blade's",
-            "cost": "",
-            "itemId": "",
-            "itemName": "",
+            "cost": [15],
+            "itemId": [83],
             "jobs": [
                 {
                     "jobName": "PLD",
@@ -2114,9 +2106,8 @@
     "ew": [
         {
             "stepName": "Manderville",
-            "cost": 3,
-            "itemId": 0,
-            "itemName": "Manderium Meteorite",
+            "cost": [3],
+            "itemId": [84],
             "jobs": [
                 {
                     "jobName" : "PLD",
@@ -2217,9 +2208,8 @@
         },
         {
             "stepName": "Amazing Manderville",
-            "cost": 3,
-            "itemId": 1,
-            "itemName": "Manderium Meteorite",
+            "cost": [3],
+            "itemId": [85],
             "jobs": [
                 {
                     "jobName" : "PLD",
@@ -2320,9 +2310,8 @@
         },
         {
             "stepName": "Majestic Manderville",
-            "cost": 3,
-            "itemId": 2,
-            "itemName": "Manderium Meteorite",
+            "cost": [3],
+            "itemId": [86],
             "jobs": [
                 {
                     "jobName" : "PLD",
@@ -2422,42 +2411,1187 @@
             ]
         }
     ],
-    "items":[
+    "items": [
         {
-            "name":"Manderium Meteorite",
-            "cost": 500,
-            "currency": "causality",
-            "icon" : "manderium_meteorite",
-            "contentId": ""
+            "id" : 0,
+            "name":"Aeolian Scimitar",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Aeolian_Scimitar",
+            "icon" : "aeolian_scimitar"
         },
         {
-            "name":"Complementary Chondrite",
-            "cost": 500,
-            "currency": "causality",
-            "icon" : "complementary_chondrite",
-            "contentId": ""
+            "id" : 1,
+            "name":"Barbarian's Bardiche",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Barbarian%27s_Bardiche",
+            "icon" : "barbarians_bardiche"
         },
         {
-            "name":"Amplifying Achondrite",
-            "cost": 500,
-            "currency": "causality",
-            "icon" : "amplifying_achondrite",
-            "contentId": ""
+            "id" : 2,
+            "name":"Madman's Whispering Rod",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki": "https://ffxiv.consolegameswiki.com/wiki/Madman%27s_Whispering_Rod",
+            "icon" : "madmans_whispering_rod"
         },
         {
-            "name": "Thavnairian scalepowder",
-            "cost": 250,
-            "currency": "poetics",
-            "icon": "Thavnairian_scalepowder",
-            "contentId": ""
+            "id" : 3,
+            "name":"Erudite's Picatrix of Healing",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki": "https://ffxiv.consolegameswiki.com/wiki/Erudite%27s_Picatrix_of_Healing",
+            "icon" : "erudites_picatrix_of_healing"
+        },
+        {
+            "id" : 4,
+            "name":"Wildling's Cesti",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki": "https://ffxiv.consolegameswiki.com/wiki/Wildling%27s_Cesti",
+            "icon" : "Wildlings_cesti"
+        },
+        {
+            "id" : 5,
+            "name":"Champion's Lance",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki": "https://ffxiv.consolegameswiki.com/wiki/Champion%27s_Lance",
+            "icon" : "champions_lance"
+        },
+        {
+            "id" : 6,
+            "name":"Vamper's Knives",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki": "https://ffxiv.consolegameswiki.com/wiki/Vamper%27s_Knives",
+            "icon" : "Vampers_knives"
+        },
+        {
+            "id" : 7,
+            "name":"Longarm's Composite Bow",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki": "https://ffxiv.consolegameswiki.com/wiki/Longarm%27s_Composite_Bow",
+            "icon" : "longarms_composite_bow"
+        },
+        {
+            "id" : 8,
+            "name":"Erudite's Picatrix of Casting",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki": "https://ffxiv.consolegameswiki.com/wiki/Erudite%27s_Picatrix_of_Casting",
+            "icon" : "erudites_picatrix_of_casting"
+        },
+        {
+            "id" : 9,
+            "name":"Sanguine Scepter",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki": "https://ffxiv.consolegameswiki.com/wiki/Sanguine_Scepter",
+            "icon" : "sanguine_scepter"
+        },
+        {
+            "id" : 10,
+            "name":"Battledance Materia III",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Battledance_Materia_III",
+            "icon" : "Battledance_Materia_III"
+        },
+        {
+            "id" : 11,
+            "name":"Quicktongue Materia III",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Quicktongue_Materia_III",
+            "icon" : "Quicktongue_Materia_III"
+        },
+        {
+            "id" : 12,
+            "name":"Savage Aim Materia III",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Savage_Aim_Materia_III",
+            "icon" : "Savage_Aim_Materia_III"
+        },
+        {
+            "id" : 13,
+            "name":"Heavens' Eye Materia III",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Heavens%27_Eye_Materia_III",
+            "icon" : "Heavens_Eye_Materia_III"
+        },
+        {
+            "id" : 14,
+            "name":"Savage Might Materia III",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Savage_Might_Materia_III",
+            "icon" : "Savage_Might_Materia_III"
+        },
+        {
+            "id" : 15,
+            "name":"Radz-at-Han Quenching Oil",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [15],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Radz-at-Han_Quenching_Oil",
+            "icon" : "radz-at-han_quenching_oil"
+        },
+        {
+            "id" : 16,
+            "name":"Thavnairian Mist",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [20],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Thavnairian_Mist",
+            "icon" : "thavnairian_mist"
+        },
+        {
+            "id" : 17,
+            "name":"Atma of the Lion",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Outer La Noscea",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Lion",
+            "icon" : "atma_of_the_lion"
+        },
+        {
+            "id" : 18,
+            "name":"Atma of the Water-bearer",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Upper La Noscea",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Water-bearer",
+            "icon" : "atma_of_the_water-bearer"
+        },
+        {
+            "id" : 19,
+            "name":"Atma of the Ram",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Middle La Noscea",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Ram",
+            "icon" : "atma_of_the_ram"
+        },
+        {
+            "id" : 20,
+            "name":"Atma of the Crab",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Western La Noscea",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Crab",
+            "icon" : "atma_of_the_crab"
+        },
+        {
+            "id" : 21,
+            "name":"Atma of the Fish",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Lower La Noscea",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Fish",
+            "icon" : "atma_of_the_fish"
+        },
+        {
+            "id" : 22,
+            "name":"Atma of the Bull",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Eastern Thanalan",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Bull",
+            "icon" : "atma_of_the_bull"
+        },
+        {
+            "id" : 23,
+            "name":"Atma of the Scales",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Central Thanalan",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Scales",
+            "icon" : "atma_of_the_scales"
+        },
+        {
+            "id" : 24,
+            "name":"Atma of the Twins",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Western Thanalan",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Twins",
+            "icon" : "atma_of_the_twins"
+        },
+        {
+            "id" : 25,
+            "name":"Atma of the Scorpion",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Southern Thanalan",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Scorpion",
+            "icon" : "atma_of_the_scorpion"
+        },
+        {
+            "id" : 26,
+            "name":"Atma of the Archer",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in North Shroud",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Archer",
+            "icon" : "atma_of_the_archer"
+        },
+        {
+            "id" : 27,
+            "name":"Atma of the Goat",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in East Shroud",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Goat",
+            "icon" : "atma_of_the_goat"
+        },
+        {
+            "id" : 28,
+            "name":"Atma of the Maiden",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Central Shroud",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Atma_of_the_Maiden",
+            "icon" : "atma_of_the_maiden"
+        },
+        {
+            "id" : 29,
+            "name": "Trial of the Braves Book",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [100],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Animus_Zodiac_Weapons/Quest#Books",
+            "icon" : "trial_of_the_braves_book"
+        },
+        {
+            "id" : 30,
+            "name": "Superior Enchanted Ink",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [25],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Superior_Enchanted_Ink",
+            "icon" : "superior_enchanted_ink"
+        },
+        {
+            "id" : 31,
+            "name": "Alexandrite",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [50],
+            "currency": [1],
+            "content": "Mysterious Map",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Alexandrite",
+            "icon" : "alexandrite"
+        },
+        {
+            "id" : 32,
+            "name": "Bombard Core",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [20000],
+            "currency": [3],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Bombard_Core",
+            "icon" : "bombard_core"
+        },
+        {
+            "id" : 33,
+            "name": "Sacred Spring Water",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [200],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Sacred_Spring_Water",
+            "icon" : "sacred_spring_water"
+        },
+        {
+            "id" : 34,
+            "name": "Bronze Lake Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [100000],
+            "currency": [2],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Bronze_Lake_Crystal",
+            "icon" : "bronze_lake_crystal"
+        },
+        {
+            "id" : 35,
+            "name": "Allagan Resin",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [100000],
+            "currency": [2],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Allagan_Resin",
+            "icon" : "allagan_resin"
+        },
+        {
+            "id" : 36,
+            "name": "Furite Sand",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [100000],
+            "currency": [2],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Furite_Sand",
+            "icon" : "furite_sand"
+        },
+        {
+            "id" : 37,
+            "name": "Brass Kettle",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [100000],
+            "currency": [2],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Brass_Kettle",
+            "icon" : "brass_kettle"
+        },
+        {
+            "id" : 38,
+            "name": "Perfect Firewood",
+            "isCraftable" : true,
+            "hqRequired" : true,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Perfect_Firewood",
+            "icon" : "perfect_firewood"
+        },
+        {
+            "id" : 39,
+            "name": "Perfect Pestle",
+            "isCraftable" : true,
+            "hqRequired" : true,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Perfect_Pestle",
+            "icon" : "perfect_pestle"
+        },
+        {
+            "id" : 40,
+            "name": "Perfect Mortar",
+            "isCraftable" : true,
+            "hqRequired" : true,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Perfect_Mortar",
+            "icon" : "perfect_mortar"
+        },
+        {
+            "id" : 41,
+            "name": "Furnace Ring",
+            "isCraftable" : true,
+            "hqRequired" : true,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Furnace_Ring",
+            "icon" : "furnace_ring"
+        },
+        {
+            "id" : 42,
+            "name": "Perfect Vellum",
+            "isCraftable" : true,
+            "hqRequired" : true,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Perfect_Vellum",
+            "icon" : "perfect_vellum"
+        },
+        {
+            "id" : 43,
+            "name": "Perfect Cloth",
+            "isCraftable" : true,
+            "hqRequired" : true,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Perfect_Cloth",
+            "icon" : "perfect_cloth"
+        },
+        {
+            "id" : 44,
+            "name": "Perfect Pounce",
+            "isCraftable" : true,
+            "hqRequired" : true,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Perfect_Pounce",
+            "icon" : "perfect_pounce"
+        },
+        {
+            "id" : 45,
+            "name": "Tailor-made Eel Pie",
+            "isCraftable" : true,
+            "hqRequired" : true,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Tailor-made_Eel_Pie",
+            "icon" : "tailor-made_eel_pie"
+        },
+        {
+            "id" : 46,
+            "name": "Luminous Wind Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in The Sea of Clouds",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Luminous_Wind_Crystal",
+            "icon" : "luminous_wind_crystal"
+        },
+        {
+            "id" : 47,
+            "name": "Luminous Fire Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Azys Lla",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Luminous_Fire_Crystal",
+            "icon" : "luminous_fire_crystal"
+        },
+        {
+            "id" : 48,
+            "name": "Luminous Lightning Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in The Churning Mists",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Luminous_Lightning_Crystal",
+            "icon" : "luminous_lightning_crystal"
+        },
+        {
+            "id" : 49,
+            "name": "Luminous Ice Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in Coerthas Western Highlands",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Luminous_Ice_Crystal",
+            "icon" : "luminous_ice_crystal"
+        },
+        {
+            "id" : 50,
+            "name": "Luminous Earth Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in The Dravanian Forelands",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Luminous_Earth_Crystal",
+            "icon" : "luminous_earth_crystal"
+        },
+        {
+            "id" : 51,
+            "name": "Luminous Water Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "FATEs in The Dravanian Hinterlands",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Luminous_Water_Crystal",
+            "icon" : "luminous_water_crystal"
+        },
+        {
+            "id" : 52,
+            "name": "Unidentifiable Bone",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [150],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Unidentifiable_Bone",
+            "icon" : "unidentifiable_bone"
+        },
+        {
+            "id" : 53,
+            "name": "Unidentifiable Shell",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [150],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Unidentifiable_Shell",
+            "icon" : "unidentifiable_shell"
+        },
+        {
+            "id" : 54,
+            "name": "Unidentifiable Ore",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [150],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Unidentifiable_Ore",
+            "icon" : "unidentifiable_ore"
+        },
+        {
+            "id" : 55,
+            "name": "Unidentifiable Seeds",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [150],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Unidentifiable_Seeds",
+            "icon" : "unidentifiable_seeds"
+        },
+        {
+            "id" : 56,
+            "name": "Adamantite Francesca",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : true,
+            "cost": [5000],
+            "currency": [3],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Adamantite_Francesca",
+            "icon" : "adamantite_francesca"
+        },
+        {
+            "id" : 57,
+            "name": "Titanium Alloy Mirror",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : true,
+            "cost": [5000],
+            "currency": [3],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Titanium_Alloy_Mirror",
+            "icon" : "titanium_alloy_mirror"
+        },
+        {
+            "id" : 58,
+            "name": "Dispelling Arrow",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : true,
+            "cost": [5000],
+            "currency": [3],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Dispelling_Arrow",
+            "icon" : "dispelling_arrow"
+        },
+        {
+            "id" : 59,
+            "name": "Kingcake",
+            "isCraftable" : true,
+            "hqRequired" : false,
+            "marketboardAvailable" : true,
+            "vendorAvailable" : true,
+            "cost": [5000],
+            "currency": [3],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Kingcake",
+            "icon" : "kingcake"
+        },
+        {
+            "id" : 60,
+            "name": "Aether Oil",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [350],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Aether_Oil",
+            "icon" : "aether_oil"
+        },
+        {
+            "id" : 61,
+            "name": "Umbrite",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [75],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Umbrite",
+            "icon" : "umbrite"
+        },
+        {
+            "id" : 62,
+            "name": "Crystal Sand",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [2.5,2.5],
+            "currency": [4, 5],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Crystal_Sand",
+            "icon" : "crystal_sand"
+        },
+        {
+            "id" : 63,
+            "name": "Singing Cluster",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [40],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Singing_Cluster",
+            "icon" : "singing_cluster"
+        },
+        {
+            "id" : 64,
+            "name": "Pneumite",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [100,4000],
+            "currency": [0, 3],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Pneumite",
+            "icon" : "pneumite"
+        },
+        {
+            "id" : 65,
+            "name": "Archaic Enchanted Ink",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [500],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Archaic_Enchanted_Ink",
+            "icon" : "archaic_enchanted_ink"
+        },
+        {
+            "id" : 66,
+            "name": "Protean Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Eureka Anemos",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Protean_Crystal",
+            "icon" : "protean_crystal"
+        },
+        {
+            "id" : 67,
+            "name": "Pazuzu's Feather",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [300],
+            "currency": [6],
+            "content": "'Wail in the Willows' NM in Eureka Anemos",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Pazuzu%27s_Feather",
+            "icon" : "pazuzus_feather"
+        },
+        {
+            "id" : 68,
+            "name": "Frosted Protean Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Eureka Pagos",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Frosted_Protean_Crystal",
+            "icon" : "frosted_protean_crystal"
+        },
+        {
+            "id" : 69,
+            "name": "Pagos Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Eureka Pagos",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Pagos_Crystal",
+            "icon" : "pagos_crystal"
+        },
+        {
+            "id" : 70,
+            "name": "Louhi's Ice",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [50],
+            "currency": [7],
+            "content": "'Louhi on Ice' NM in Eureka Pagos",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Louhi%27s_Ice",
+            "icon" : "louhis_ice"
+        },
+        {
+            "id" : 71,
+            "name": "Pyros Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Eureka Pyros",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Pyros_Crystal",
+            "icon" : "pyros_crystal"
+        },
+        {
+            "id" : 72,
+            "name": "Penthesilea's Flame",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [50],
+            "currency": [8],
+            "content": "'Lost Epic' NM in Eureka Pyros",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Penthesilea%27s_Flame",
+            "icon" : "louhis_ice"
+        },
+        {
+            "id" : 73,
+            "name": "Hydatos Crystal",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Eureka Hydatos",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Hydatos_Crystal",
+            "icon" : "hydatos_crystal"
+        },
+        {
+            "id" : 74,
+            "name": "Crystalline Scale",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "'Crystalline Provenance' NM in Eureka Hydatos",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Crystalline_Scale",
+            "icon" : "crystalline_scale"
+        },
+        {
+            "id" : 75,
+            "name": "Eureka Fragment",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "The Baldesion Arsenal in Eureka Hydatos",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Eureka_Fragment",
+            "icon" : "eureka_fragment"
+        },
+        {
+            "id" : 76,
+            "name": "Thavnairian Scalepowder",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [250],
+            "currency": [0],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Thavnairian_Scalepowder",
+            "icon" : "thavnairian_scalepowder"
+        },
+        {
+            "id" : 77,
+            "name": "Tortured Memory of the Dying",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Bozjan Southern Front: Skirmishes, CEs and Mobs (RANDOM) or FATEs in Coerthas Western Highlands & Sea of Clouds (GUARANTEED)",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Tortured_Memory_of_the_Dying",
+            "icon" : "tortured_memory_of_the_dying"
+        },
+        {
+            "id" : 78,
+            "name": "Sorrowful Memory of the Dying",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Bozjan Southern Front: Skirmishes, CEs and Mobs (RANDOM) or FATEs in The Dravanian Forelands & Churning Mists (GUARANTEED)",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Sorrowful_Memory_of_the_Dying",
+            "icon" : "sorrowful_memory_of_the_dying"
+        },
+        {
+            "id" : 79,
+            "name": "Harrowing Memory of the Dying",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Bozjan Southern Front: Skirmishes, CEs and Mobs (RANDOM) or FATEs in The Dravanian Hinterlands & Azys Lla (GUARANTEED)",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Harrowing_Memory_of_the_Dying",
+            "icon" : "harrowing_memory_of_the_dying"
+        },
+        {
+            "id" : 80,
+            "name": "Bitter Memory of the Dying",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Bozjan Southern Front: CEs & Mobs (RANDOM) or Leveling Roulette (once a day) and Level 60 Dungeons (GUARANTEED)",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Bitter_Memory_of_the_Dying",
+            "icon" : "bitter_memory_of_the_dying"
+        },
+        {
+            "id" : 81,
+            "name": "Loathsome Memory of the Dying",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Bozjan Southern Front: CEs (RANDOM) and Castrum Lacus Litore (5)(GUARANTEED) or Crystal Tower Alliance Raids (GUARANTEED)",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Loathsome_Memory_of_the_Dying",
+            "icon" : "loathsome_memory_of_the_dying"
+        },
+        {
+            "id" : 82,
+            "name": "Timeworn Artifact",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "Delubrum Reginae (3)(GUARANTEED) or Palace of the dead (RANDOM)(Higher Chance from deeper floors)",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Timeworn_Artifact",
+            "icon" : "timeworn_artifact"
+        },
+        {
+            "id" : 83,
+            "name": "Raw Emotion",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : false,
+            "cost": null,
+            "currency": null,
+            "content": "The Dalriada (3), Delubrum Reginae (2)(GUARANTEED) or Level 70 Dungeons (GUARANTEED), Heaven on High (RANDOM)(higher chance from higher floors)",
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Raw_Emotion",
+            "icon" : "raw_emotion"
+        },
+        {
+            "id" : 84,
+            "name": "Manderium Meteorite",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [500],
+            "currency": [9],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Manderium_Meteorite",
+            "icon" : "manderium_meteorite"
+        },
+        {
+            "id" : 85,
+            "name": "Complementary Chondrite",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [500],
+            "currency": [9],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Complementary_Chondrite",
+            "icon" : "complementary_chondrite"
+        },
+        {
+            "id" : 86,
+            "name": "Amplifying Achondrite",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [500],
+            "currency": [9],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Amplifying_Achondrite",
+            "icon" : "amplifying_achondrite"
         }
     ],
     "currency":[
         {
+            "id" : 0,
             "name" : "Allagan Tomestone of Poetics",
             "icon" : "poetics"
         },
         {
+            "id" : 1,
+            "name" : "Allied Seal",
+            "icon" : "Allied_Seal"
+        },
+        {
+            "id" : 2,
+            "name" : "Gil",
+            "icon" : "gil"
+        },
+        {
+            "id" : 3,
+            "name" : "Company Seals",
+            "icon" : "Company_Seal"
+        },
+        {
+            "id" : 4,
+            "name" : "Thavnairian Mist",
+            "icon" : "thavnairian_mist"
+        },
+        {
+            "id" : 5,
+            "name" : "Superior Enchanted Ink",
+            "icon" : "superior_enchanted_ink"
+        },
+        {
+            "id" : 6,
+            "name" : "Protean Crystal",
+            "icon" : "protean_crystal"
+        },
+        {
+            "id" : 7,
+            "name" : "Pagos Crystal",
+            "icon" : "pagos_crystal"
+        },
+        {
+            "id" : 8,
+            "name" : "Pyros Crystal",
+            "icon" : "pyros_crystal"
+        },
+        {
+            "id" : 9,
             "name" : "Allagan Tomestone of Causality",
             "icon" : "causality"
         }
