@@ -305,12 +305,13 @@ function fetchItems (relicInfo) {
                         "wiki" : relicInfo.items[itemList[itemIndex]].wiki,
                         "icon" : relicInfo.items[itemList[itemIndex]].icon
                     }
-
-                    
+     
                     let itemContainer = document.createElement('div');
                     let itemIcon = document.createElement('img');
                     let itemName = document.createElement('span');
                     let itemAmount = document.createElement('span');
+                    let itemTotalAmount = document.createElement('span');
+                    let itemSeparator = document.createElement('span');
                     let infoContainer = document.createElement('div');
                     let infoCraft = document.createElement('span');
                     let infoMb = document.createElement('span');
@@ -321,6 +322,8 @@ function fetchItems (relicInfo) {
                     itemIcon.classList.add('itemIcon');
                     itemName.classList.add('itemName');
                     itemAmount.classList.add('itemAmount');
+                    itemTotalAmount.classList.add('itemTotalAmount');
+                    itemSeparator.classList.add('ItemSeparator');
 
                     infoContainer.classList.add('infoContainer');
                     infoCraft.classList.add('infoSpan');
@@ -333,12 +336,16 @@ function fetchItems (relicInfo) {
                     infoHq.innerHTML = "MUST be HQ";
 
                     itemIcon.src = '/img/items/' + item.icon + '.png';
-                    itemName.innerHTML = item.name;
-                    itemAmount.innerHTML = (itemCostList[itemIndex] * relicAmountNeeded).toLocaleString() + 'x';
+                    itemName.innerHTML = item.name + ' ';
+                    itemSeparator.innerHTML = '&nbsp;|&nbsp;';
+                    itemAmount.innerHTML = 'Each Relic: ' + itemCostList[itemIndex].toLocaleString() + 'x';
+                    itemTotalAmount.innerHTML = (itemCostList[itemIndex] * relicAmountNeeded).toLocaleString() + 'x';
 
                     itemContainer.appendChild(itemIcon);
-                    itemContainer.appendChild(itemAmount);
+                    itemContainer.appendChild(itemTotalAmount);
                     itemContainer.appendChild(itemName);
+                    itemContainer.appendChild(itemSeparator);
+                    itemContainer.appendChild(itemAmount);
 
                     //currencyItemCategoryContainer.appendChild(itemContainer)
                     currencyItemStepContainer.appendChild(itemContainer)
@@ -354,19 +361,27 @@ function fetchItems (relicInfo) {
                             let currencyIcon = document.createElement('img');
                             let currencyName = document.createElement('span');
                             let currencyAmount = document.createElement('span');
+                            let currencyTotalAmount = document.createElement('span');
+                            let currencySeparator = document.createElement('span');
 
                             currencyContainer.classList.add('currencyContainer');
                             currencyIcon.classList.add('currencyIcon');
                             currencyName.classList.add('currencyName');
                             currencyAmount.classList.add('currencyAmount');
+                            currencyTotalAmount.classList.add('currencyTotalAmount');
+                            currencySeparator.classList.add('currencySeparator');
 
                             currencyIcon.src = '/img/items/' + currency.icon + '.png';
                             currencyName.innerHTML = currency.name;
-                            currencyAmount.innerHTML = (item.cost[currencyIndex] * (itemCostList[itemIndex] * relicAmountNeeded)).toLocaleString();
+                            currencySeparator.innerHTML = '&nbsp;|&nbsp;';
+                            currencyAmount.innerHTML = 'Each Relic: ' + (item.cost[currencyIndex] * itemCostList[itemIndex]).toLocaleString();
+                            currencyTotalAmount.innerHTML = (item.cost[currencyIndex] * (itemCostList[itemIndex] * relicAmountNeeded)).toLocaleString();
 
                             currencyContainer.appendChild(currencyIcon);
-                            currencyContainer.appendChild(currencyAmount);
+                            currencyContainer.appendChild(currencyTotalAmount);
                             currencyContainer.appendChild(currencyName);
+                            currencyContainer.appendChild(currencySeparator);
+                            currencyContainer.appendChild(currencyAmount);
  
                             currencyItemStepContainer.appendChild(currencyContainer);
                         }
