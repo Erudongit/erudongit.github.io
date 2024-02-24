@@ -2409,6 +2409,108 @@
                     "icon" : "ew219"
                 }
             ]
+        },
+        {
+            "stepName": "Mandervillous",
+            "cost": [3],
+            "itemId": [87],
+            "jobs": [
+                {
+                    "jobName" : "PLD",
+                    "weaponName" : "Mandervillous Falchion",
+                    "icon" : "ew31"
+                },
+                {
+                    "jobName" : "WAR",
+                    "weaponName" : "Mandervillous Battleaxe",
+                    "icon" : "ew32"
+                },
+                {
+                    "jobName" : "WHM",
+                    "weaponName" : "Mandervillous Cane",
+                    "icon" : "ew33"
+                },
+                {
+                    "jobName" : "SCH",
+                    "weaponName" : "Mandervillous Codex",
+                    "icon" : "ew34"
+                },
+                {
+                    "jobName" : "MNK",
+                    "weaponName" : "Mandervillous Fists",
+                    "icon" : "ew35"
+                },
+                {
+                    "jobName" : "DRG",
+                    "weaponName" : "Mandervillous Trident",
+                    "icon" : "ew36"
+                },
+                {
+                    "jobName" : "NIN",
+                    "weaponName" : "Mandervillous Knives",
+                    "icon" : "ew37"
+                },
+                {
+                    "jobName" : "BRD",
+                    "weaponName" : "Mandervillous Compound Bow",
+                    "icon" : "ew38"
+                },
+                {
+                    "jobName" : "SMN",
+                    "weaponName" : "Mandervillous Index",
+                    "icon" : "ew39"
+                },
+                {
+                    "jobName" : "BLM",
+                    "weaponName" : "Mandervillous Rod",
+                    "icon" : "ew310"
+                },
+                {
+                    "jobName" : "DRK",
+                    "weaponName" : "Mandervillous Greatsword",
+                    "icon" : "ew311"
+                },
+                {
+                    "jobName" : "AST",
+                    "weaponName" : "Mandervillous Torquetum",
+                    "icon" : "ew312"
+                },
+                {
+                    "jobName" : "MCH",
+                    "weaponName" : "Mandervillous Revolver",
+                    "icon" : "ew313"
+                },
+                {
+                    "jobName" : "SAM",
+                    "weaponName" : "Mandervillous Samurai Blade",
+                    "icon" : "ew314"
+                },
+                {
+                    "jobName" : "RDM",
+                    "weaponName" : "Mandervillous Rapier",
+                    "icon" : "ew315"
+                },
+                {
+                    "jobName" : "GNB",
+                    "weaponName" : "Mandervillous Gunblade",
+                    "icon" : "ew316"
+                },
+                {
+                    "jobName" : "DNC",
+                    "weaponName" : "Mandervillous Chakrams",
+                    "icon" : "ew317"
+                },
+                {
+                    "jobName" : "RPR",
+                    "weaponName" : "Mandervillous Zaghnal",
+                    "icon" : "ew318"
+                },
+                {
+                    "jobName" : "SGE",
+                    "weaponName" : "Mandervillous Wings",
+                    "icon" : "ew319"
+                }
+            ]
         }
     ],
     "items": [
@@ -3542,6 +3644,19 @@
             "content": null,
             "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Amplifying_Achondrite",
             "icon" : "amplifying_achondrite"
+        },
+        {
+            "id" : 87,
+            "name": "Cosmic Crystallite",
+            "isCraftable" : false,
+            "hqRequired" : false,
+            "marketboardAvailable" : false,
+            "vendorAvailable" : true,
+            "cost": [500],
+            "currency": [9],
+            "content": null,
+            "wiki" : "https://ffxiv.consolegameswiki.com/wiki/Cosmic_Crystallite",
+            "icon" : "cosmic_crystallite"
         }
     ],
     "currency":[

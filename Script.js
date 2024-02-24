@@ -1,4 +1,4 @@
-const version = '0.1';
+const version = '0.2';
 
 if (localStorage.getItem('yourCollection') === null || JSON.parse(localStorage.getItem('yourCollection')).version != version) {
     //yourCollection = []
@@ -138,6 +138,10 @@ if (localStorage.getItem('yourCollection') === null || JSON.parse(localStorage.g
                     {
                         name: 'Majestic Manderville',
                         acquired: 0
+                    },
+                    {
+                        name: 'Mandervilous',
+                        acquired: 0
                     }
                 ]
         }
@@ -158,6 +162,7 @@ async function collecting() {
         createRelicContainer('ewFirstStep', relicInfo.ew[0].jobs[i].icon, relicInfo.ew[0].jobs[i].weaponName, relicInfo.ew[0].jobs[i].jobName);
         createRelicContainer('ewSecondStep', relicInfo.ew[1].jobs[i].icon, relicInfo.ew[1].jobs[i].weaponName, relicInfo.ew[1].jobs[i].jobName);
         createRelicContainer('ewThirdStep', relicInfo.ew[2].jobs[i].icon, relicInfo.ew[2].jobs[i].weaponName, relicInfo.ew[2].jobs[i].jobName);
+        createRelicContainer('ewFourthStep', relicInfo.ew[3].jobs[i].icon, relicInfo.ew[3].jobs[i].weaponName, relicInfo.ew[3].jobs[i].jobName);
         if(i < 17) {
             createRelicContainer('shbFirstStep', relicInfo.shb[0].jobs[i].icon, relicInfo.shb[0].jobs[i].weaponName, relicInfo.shb[0].jobs[i].jobName);
             createRelicContainer('shbSecondStep', relicInfo.shb[1].jobs[i].icon, relicInfo.shb[1].jobs[i].weaponName, relicInfo.shb[1].jobs[i].jobName);
